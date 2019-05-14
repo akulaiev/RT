@@ -29,7 +29,7 @@ static void		screenshot(t_scene *scene, t_sdl *sdl_data, t_shot s)
 	s.command = ft_strcat(s.command, s.w_c);
 	s.command = ft_strcat(s.command, ",");
 	s.command = ft_strcat(s.command, s.h_c);
-	s.command = ft_strcat(s.command, " ./screenshots/test");
+	s.command = ft_strcat(s.command, " ./screenshots/shot");
 	s.command = ft_strcat(s.command, s.sh);
 	s.command = ft_strcat(s.command, ".png");
 	system(s.command);

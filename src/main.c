@@ -16,8 +16,8 @@ static void		init(t_scene *sc)
 {
 	sc->num_figs = 0;
 	sc->num_lights = 0;
-	sc->window_width = 1920;
-	sc->window_height = 1080;
+	sc->window_width = 792;
+	sc->window_height = 680;
 }
 
 static void		start_render(t_scene *scene, char **av, int ac)

@@ -56,7 +56,7 @@ void			calculate_and_render(t_scene *scene, t_sdl *sdl_data)
 void			sdl_init(t_scene *scene, t_sdl *sdl_data)
 {
 	if ((SDL_Init(SDL_INIT_EVERYTHING) != 0) ||
-	((sdl_data->win_ptr = SDL_CreateWindow("RT_basic", 300, 300,
+	((sdl_data->win_ptr = SDL_CreateWindow("RT", 300, 300,
 	scene->window_width, scene->window_height, 0)) == NULL) ||
 	((sdl_data->img_ptr = (int*)malloc(sizeof(int) *
 	scene->window_width * scene->window_height)) == NULL) ||
