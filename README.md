@@ -33,5 +33,5 @@ If the number of skybox is not selected, the default one will be shown. To elimi
 
 - Use 'w', 's', 'a' and 'd' keys to rotate the camera;
 
-- Use 'Q' to create a screenshot, which will be located in the "screenshots" directory.
+- Use 'q' to create a screenshot, which will be located in the "screenshots" directory.
 
