@@ -1,5 +1,5 @@
 # RT
-Take on the previous RTv1 project with lots of added, more advanced features. Because RT is a group project, below listed only the bonuses, implemented by me.
+Take on the previous RTv1 project with lots of added, more advanced features. Because RT is a group project, below are listed only the bonuses, implemented by me.
 
 # Project features
 • Ambiance light
