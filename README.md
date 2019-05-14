@@ -24,7 +24,7 @@ To compile the executable, use Make. Then run it with one of the test files with
 ```
 Usage: ./RT src/scenes/scene_name skybox_number
 ```
-If the number of skybox is not selected, the default one will be shown. To elimit skybox, use '0' as a skybox number parameter.
+If the number of skybox is not selected, the default one will be shown. To eliminate skybox, use '0' as a skybox number parameter.
 
 # Controls
 - Use arrows, to move the rendered objects;
