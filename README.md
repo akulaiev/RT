@@ -1,14 +1,27 @@
 # RT
-The project features rendering of 4 simple geometric objects : plane,
-sphere, cylinder and cone, as well as some light management : different brightness, shadows, shine effect.
-It is also possible to render more than one lightning point. Translation and rotation transformation to objects are applied before displaying them in the source file.
+Take on the previous RTv1 project with lots of added, more advanced features. Hence RT is a group project, below listed only the bonuses, implemented by me.
+
+# Project features
+• Ambiance light
+• Reflection
+• Transparency
+• Advansed figures : cube, elliptic paraboloid, hyperbolic paraboloid, ellipsoid, toroid
+• Skybox
+• Screenshots
 
 <p align="center">
 <img src="https://github.com/akulaiev/RTv1/blob/master/demo.png" width="350">
 </p>
 
 # Running
-To compile the executable, use Make. Then run it with one of the test files in the "scenes" directory from the root of this repository.
+To compile the executable, use Make. Then run it with one of the test files with .scene extension in the "scenes" directory, located in "src".
 ```
-Usage: ./RTv1 scenes/scene_name
+Usage: ./RT src/scenes/scene_name skybox_number
 ```
+If the number of skybox is not selected, the default one will be shown. To elimit skybox, use '0' as a skybox number parameter.
+
+# Controls
+- Use arrows, to move the rendered objects;
+- Use '+' and '-' to change the size of the objects;
+- Use 'w', 's', 'a' and 'd' keys to rotate the camera;
+- Use 'Q' to create a screenshot, which will be located in the "screenshots" directory.
