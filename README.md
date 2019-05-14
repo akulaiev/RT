@@ -22,7 +22,7 @@ Take on the previous RTv1 project with lots of added, more advanced features. Be
 # Running
 To compile the executable, use Make. Then run it with one of the test files with .scene extension in the "scenes" directory, located in "src".
 ```
-Usage: ./RT src/scenes/scene_name skybox_number
+Usage: ./RT src/scenes/scene_name skybox_number(1-5)
 ```
 If the number of skybox is not selected, the default one will be shown. To eliminate skybox, use '0' as a skybox number parameter.
 
